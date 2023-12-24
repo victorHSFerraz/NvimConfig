@@ -21,7 +21,9 @@ return require('packer').startup(function(use)
     use { "tpope/vim-fugitive" }
     use { "andweeb/presence.nvim" }
     use { "lewis6991/gitsigns.nvim" }
-
+    use {"akinsho/toggleterm.nvim", tag = '*', config = function()
+        require("toggleterm").setup()
+    end}
     use {
         'VonHeikemen/lsp-zero.nvim',
         branch = 'v3.x',
