@@ -176,6 +176,11 @@ _G.packer_plugins = {
     path = "/Users/victor/.local/share/nvim/site/pack/packer/start/toggleterm.nvim",
     url = "https://github.com/akinsho/toggleterm.nvim"
   },
+  ["trouble.nvim"] = {
+    loaded = true,
+    path = "/Users/victor/.local/share/nvim/site/pack/packer/start/trouble.nvim",
+    url = "https://github.com/folke/trouble.nvim"
+  },
   undotree = {
     loaded = true,
     path = "/Users/victor/.local/share/nvim/site/pack/packer/start/undotree",
